@@ -2,7 +2,7 @@ import pandas as pd
 import math
 
 # Read the stock data into a Pandas DataFrame
-df = pd.read_csv('MSFT_data.csv')
+df = pd.read_csv('Saham/Semua/BJTM.csv')
 
 # Convert the date column to a datetime data type
 df['date'] = pd.to_datetime(df['date'])
